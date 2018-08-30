@@ -4,15 +4,16 @@ body {
   background: url(assets/freedom.jpg) no-repeat center;
   background-size: cover;
   color: #333;
-  margin: 0;
   display: table;
+  text-align: center;
+  margin: 0;
 }
 .wrapper {
   display: table-cell;
-  vertical-align: middle;
-  padding: 4rem;
-  width: 90%;
+  vertical-align: top;
   padding: 2rem;
+  width: 100%;
+  
 }
 .quote {
   font-family: 'Julius Sans One', sans-serif;
@@ -20,14 +21,27 @@ body {
   text-align: center;
 }
 p {
-  display: block;
-  margin-top: 1rem;
+    margin-top: 1rem;
 }
 .author {
   font-family: 'Crimson Text', serif;
   font-size: 1rem;
   font-style: italic;
+  text-align: center;
 }
 small {
   font-size: smaller;
+}
+
+nav {
+  position: absolute;
+  bottom: 1rem;
+  width: 82vw;
+  height: 1rem;
+}
+nav a {
+  text-decoration: none;
+  font-family: 'Julius Sans One', sans-serif;
+  color: white;
+  padding: 0.5rem;
 }
